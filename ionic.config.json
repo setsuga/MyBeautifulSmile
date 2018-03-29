@@ -1,0 +1,8 @@
+{
+  "name": "mybeautifulsmile",
+  "app_id": "79854f05",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
