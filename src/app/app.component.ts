@@ -33,7 +33,7 @@ export class MyApp {
   pages: PageInterface[] = [
     { title: 'Tab 1', pageName: 'HomePage', tabComponent: 'HomePage', index: 0, icon: 'home' },
     { title: 'Tab 2', pageName: 'AdultsPage', tabComponent: 'AdultsPage', index: 1, icon: 'contacts' },
-    { title: 'Special', pageName: 'KidsPage', icon: 'shuffle' },
+    //{ title: 'Special', pageName: 'KidsPage', icon: 'shuffle' },
   ];
   
   constructor(
