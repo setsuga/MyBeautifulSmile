@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavController, NavParams } from 'ionic-angular';
 
 import { AdultsPage } from '../adults/adults';
 import { KidsPage } from '../kids/kids';
