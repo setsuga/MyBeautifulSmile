@@ -7,6 +7,8 @@ import { AdultsPage } from '../pages/adults/adults';
 import { KidsPage } from '../pages/kids/kids';
 import { DentistsPage } from '../pages/dentists/dentists';
 
+import { TabsPage } from '../pages/tabs/tabs';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -18,7 +20,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make HomePage the root (or first) page
-  rootPage = HomePage;
+  rootPage = TabsPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(
