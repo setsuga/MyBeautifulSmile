@@ -31,9 +31,9 @@ export class MyApp {
   //pages: Array<{title: string, component: any}>;
   
   pages: PageInterface[] = [
-    { title: 'Tab 1', pageName: 'TabsPage', tabComponent: 'Tab1Page', index: 0, icon: 'home' },
-    { title: 'Tab 2', pageName: 'TabsPage', tabComponent: 'Tab2Page', index: 1, icon: 'contacts' },
-    { title: 'Special', pageName: 'SpecialPage', icon: 'shuffle' },
+    { title: 'Tab 1', pageName: 'HomePage', tabComponent: 'HomePage', index: 0, icon: 'home' },
+    { title: 'Tab 2', pageName: 'AdultsPage', tabComponent: 'AdultsPage', index: 1, icon: 'contacts' },
+    { title: 'Special', pageName: 'KidsPage', icon: 'shuffle' },
   ];
   
   constructor(
@@ -45,15 +45,15 @@ export class MyApp {
     this.initializeApp();
 
     // set our app's pages
-    this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'Adults', component: AdultsPage },
-	  { title: 'Kids', component: KidsPage },
-	  { title: 'Dentists', component: DentistsPage },
-	  { title: 'Follow Us', component: DentistsPage },
-	  { title: 'Dentists', component: DentistsPage },
-	  { title: 'MapFrame', component: DentistsPage }
-    ];
+    // this.pages = [
+      // { title: 'Home', component: HomePage },
+      // { title: 'Adults', component: AdultsPage },
+	  // { title: 'Kids', component: KidsPage },
+	  // { title: 'Dentists', component: DentistsPage },
+	  // { title: 'Follow Us', component: DentistsPage },
+	  // { title: 'Dentists', component: DentistsPage },
+	  // { title: 'MapFrame', component: DentistsPage }
+    // ];
   }
 
   initializeApp() {
