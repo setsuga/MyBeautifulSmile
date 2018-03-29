@@ -15,6 +15,7 @@ export class TabsPage {
   tab2Root = AdultsPage;
   tab3Root = KidsPage;
   tab4Root = DentistsPage;
+  myIndex: number;
 
   constructor(navParams: NavParams) {
     // Set the active tab based on the passed index from menu.ts
